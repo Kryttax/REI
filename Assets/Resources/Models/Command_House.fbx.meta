@@ -1,0 +1,226 @@
+fileFormatVersion: 2
+guid: 2e90c0e65dd69f247b83a3482d3a12c1
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Bed
+    100002: Chair
+    100004: Chair1
+    100006: Chair2
+    100008: Chair3
+    100010: Closet
+    100012: //RootNode
+    100014: New_Command_Center
+    100016: Night_Stand
+    100018: Support_Beams
+    100020: Table
+    400000: Bed
+    400002: Chair
+    400004: Chair1
+    400006: Chair2
+    400008: Chair3
+    400010: Closet
+    400012: //RootNode
+    400014: New_Command_Center
+    400016: Night_Stand
+    400018: Support_Beams
+    400020: Table
+    2100000: Chair_Texture
+    2100002: Closet_Texture
+    2100004: Handle_Texture_Closet
+    2100006: lambert1
+    2100008: BedTexture
+    2100010: Outside_Wall_Texture
+    2100012: Wall1
+    2100014: Wall3
+    2100016: Wall2
+    2100018: TV_Texture
+    2100020: TV_Frame
+    2100022: Command_Window
+    2100024: CommandFloor
+    2300000: Bed
+    2300002: Chair
+    2300004: Chair1
+    2300006: Chair2
+    2300008: Chair3
+    2300010: Closet
+    2300012: New_Command_Center
+    2300014: Night_Stand
+    2300016: Support_Beams
+    2300018: Table
+    3300000: Bed
+    3300002: Chair
+    3300004: Chair1
+    3300006: Chair2
+    3300008: Chair3
+    3300010: Closet
+    3300012: New_Command_Center
+    3300014: Night_Stand
+    3300016: Support_Beams
+    3300018: Table
+    4300000: Chair1
+    4300002: Chair
+    4300004: Chair3
+    4300006: Chair2
+    4300008: Table
+    4300010: Night_Stand
+    4300012: Closet
+    4300014: Bed
+    4300016: New_Command_Center
+    4300018: Support_Beams
+    6400000: Bed
+    6400002: Chair
+    6400004: Chair1
+    6400006: Chair2
+    6400008: Chair3
+    6400010: Closet
+    6400012: New_Command_Center
+    6400014: Night_Stand
+    6400016: Support_Beams
+    6400018: Table
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BedTexture
+    second: {fileID: 2100000, guid: caf9ff90881ef8a429203f307ebf96d8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Chair_Texture
+    second: {fileID: 2100000, guid: d445bbe83610da141b28b0615deb32b0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Closet_Texture
+    second: {fileID: 2100000, guid: c6e941319e66fc344aabb8de1942a719, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CommandFloor
+    second: {fileID: 2100000, guid: 211cb0944fe53d243a24ef5a1db96b61, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Command_Window
+    second: {fileID: 2100000, guid: 890f3818b19ae64498ddb34aaa92f9e2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Handle_Texture_Closet
+    second: {fileID: 2100000, guid: 598187a637104ea4db726aa73acea0db, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Outside_Wall_Texture
+    second: {fileID: 2100000, guid: a8e364ce795a1b841b6c333721a632a5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TV_Frame
+    second: {fileID: 2100000, guid: 1a9b4b9c088b4954ba46584a1b0d685b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TV_Texture
+    second: {fileID: 2100000, guid: 046f06a89b959574ea203a2b54ce9a9e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wall1
+    second: {fileID: 2100000, guid: 6d6055f67835d2c449a81eda48de124d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wall2
+    second: {fileID: 2100000, guid: f49e63f22c904ee42b9c6e1840807e29, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wall3
+    second: {fileID: 2100000, guid: 954ffb60634ede04ca6d524c5aa9e734, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert1
+    second: {fileID: 2100000, guid: 1b1ab06bf4a5cf941966f10579d89eff, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1.5
+    meshCompression: 0
+    addColliders: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

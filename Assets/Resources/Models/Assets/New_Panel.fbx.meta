@@ -1,0 +1,145 @@
+fileFormatVersion: 2
+guid: cffd0e65b90d52149a5426d1ddfc3b95
+timeCreated: 1519135251
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Control_Panel
+    100002: G_Button1
+    100004: G_Button2
+    100006: G_Button3
+    100008: //RootNode
+    100010: R_Button
+    400000: Control_Panel
+    400002: G_Button1
+    400004: G_Button2
+    400006: G_Button3
+    400008: //RootNode
+    400010: R_Button
+    2100000: C_P_Texture
+    2100002: Lcd_Monitor
+    2100004: lambert1
+    2100006: Red_Button
+    2100008: Green_Button
+    2300000: Control_Panel
+    2300002: G_Button1
+    2300004: G_Button2
+    2300006: G_Button3
+    2300008: R_Button
+    3300000: Control_Panel
+    3300002: G_Button1
+    3300004: G_Button2
+    3300006: G_Button3
+    3300008: R_Button
+    4300000: Control_Panel
+    4300002: R_Button
+    4300004: G_Button1
+    4300006: G_Button3
+    4300008: G_Button2
+    9500000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: C_P_Texture
+    second: {fileID: 2100000, guid: 272349dff9a409a43989603cd1912caf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Green_Button
+    second: {fileID: 2100000, guid: 8b334329dba46554ab89956c1750d5f2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lcd_Monitor
+    second: {fileID: 2100000, guid: 3a8bd70ce8b27a64bb29dab8095f7131, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Red_Button
+    second: {fileID: 2100000, guid: a5fd9b5f67dfd674394888df7e34fe0f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert1
+    second: {fileID: 2100000, guid: 66117a7a0ba88ad4a86e3bffa312b90c, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 100
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

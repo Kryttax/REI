@@ -1,0 +1,172 @@
+fileFormatVersion: 2
+guid: 0e8208b206acc064db3b420b3acc119c
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Drone_Control
+    100004: Drone_Launch_Pad
+    400000: //RootNode
+    400002: Drone_Control
+    400004: Drone_Launch_Pad
+    2100000: Button1
+    2100002: DronePadBlue
+    2100004: Drone_Monitor
+    2100006: ControlerPad
+    2100008: DronePadYellow
+    2100010: Joystick_Ruber
+    2100012: Joystick
+    2100014: Joystic_Nob
+    2100016: Button3
+    2100018: Button2
+    2100020: lambert1
+    2100022: DronePadTexture
+    2300000: Drone_Control
+    2300002: Drone_Launch_Pad
+    3300000: Drone_Control
+    3300002: Drone_Launch_Pad
+    4300000: Drone_Control
+    4300002: Drone_Launch_Pad
+    6400000: Drone_Control
+    6400002: Drone_Launch_Pad
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Button1
+    second: {fileID: 2100000, guid: 840f94f227e38fe4ba272015ce23c6d7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Button2
+    second: {fileID: 2100000, guid: 289dbca17c82b8f4abeee434688200c9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Button3
+    second: {fileID: 2100000, guid: 12806e4b7976dc943bcd0265bfead309, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ControlerPad
+    second: {fileID: 2100000, guid: e1f65ca5d2d984443b64bdbcf443b76f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DronePadBlue
+    second: {fileID: 2100000, guid: 12806e4b7976dc943bcd0265bfead309, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DronePadTexture
+    second: {fileID: 2100000, guid: caf9ff90881ef8a429203f307ebf96d8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DronePadYellow
+    second: {fileID: 2100000, guid: 8088632d30e0d764a8f8c6583603c952, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Drone_Monitor
+    second: {fileID: 2100000, guid: deb37cbcaef56b347ba36af1d0853ef7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Joystic_Nob
+    second: {fileID: 2100000, guid: 04792f8692fdfb54baab8962928d3ffd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Joystick
+    second: {fileID: 2100000, guid: 2cd9024f4eac37244b2eb48110d1ffe5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Joystick_Ruber
+    second: {fileID: 2100000, guid: 3d93831699f086f4785ac1c1db80101d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert1
+    second: {fileID: 2100000, guid: 1b1ab06bf4a5cf941966f10579d89eff, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1.5
+    meshCompression: 0
+    addColliders: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

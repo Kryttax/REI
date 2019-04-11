@@ -1,0 +1,230 @@
+fileFormatVersion: 2
+guid: 1a15e66f47cd2d045a78e8af9059466c
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Fuse
+    100002: Fuse1
+    100004: Fuse2
+    100006: Fuse3
+    100008: //RootNode
+    100010: Fuse_Box1
+    100012: Fuse_Holder
+    100014: Fuse_Holder1
+    100016: Fuse_Holder2
+    100018: Fuse_Holder3
+    100020: Fuse_Holder4
+    100022: Fuse_Holder5
+    100024: Fuse_Holder6
+    100026: Fuse_Holder7
+    100028: FuseBox_Door
+    100030: Handle1
+    400000: Fuse
+    400002: Fuse1
+    400004: Fuse2
+    400006: Fuse3
+    400008: //RootNode
+    400010: Fuse_Box1
+    400012: Fuse_Holder
+    400014: Fuse_Holder1
+    400016: Fuse_Holder2
+    400018: Fuse_Holder3
+    400020: Fuse_Holder4
+    400022: Fuse_Holder5
+    400024: Fuse_Holder6
+    400026: Fuse_Holder7
+    400028: FuseBox_Door
+    400030: Handle1
+    2100000: Riffle_Texture
+    2100002: Box_0006_Green_Fuse_Light
+    2100004: lambert1
+    2100006: Red_Fuse_Texture
+    2100008: Fuse_Label
+    2100010: Fuse_Texture
+    2100012: Fusetip_Texture
+    2100014: Box_0006_Fuzebox_Texture
+    2100016: Box_0006_Cable_Texture
+    2100018: Boxinabox
+    2100020: Box_0006_Danger_Sign
+    2300000: Fuse
+    2300002: Fuse1
+    2300004: Fuse2
+    2300006: Fuse3
+    2300008: Fuse_Box1
+    2300010: Fuse_Holder
+    2300012: Fuse_Holder1
+    2300014: Fuse_Holder2
+    2300016: Fuse_Holder3
+    2300018: Fuse_Holder4
+    2300020: Fuse_Holder5
+    2300022: Fuse_Holder6
+    2300024: Fuse_Holder7
+    2300026: FuseBox_Door
+    2300028: Handle1
+    3300000: Fuse
+    3300002: Fuse1
+    3300004: Fuse2
+    3300006: Fuse3
+    3300008: Fuse_Box1
+    3300010: Fuse_Holder
+    3300012: Fuse_Holder1
+    3300014: Fuse_Holder2
+    3300016: Fuse_Holder3
+    3300018: Fuse_Holder4
+    3300020: Fuse_Holder5
+    3300022: Fuse_Holder6
+    3300024: Fuse_Holder7
+    3300026: FuseBox_Door
+    3300028: Handle1
+    4300000: Fuse_Holder4
+    4300002: Fuse_Holder
+    4300004: Fuse_Holder1
+    4300006: Fuse_Holder5
+    4300008: Fuse_Holder2
+    4300010: Fuse_Holder6
+    4300012: Fuse_Holder3
+    4300014: Fuse_Holder7
+    4300016: Fuse
+    4300018: Fuse1
+    4300020: Fuse2
+    4300022: Fuse3
+    4300024: Handle1
+    4300026: Fuse_Box1
+    4300028: FuseBox_Door
+    2186277476908879412: ImportLogs
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Box_0006_Cable_Texture
+    second: {fileID: 2100000, guid: b879827735c74334994c41de7ec28d16, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Box_0006_Danger_Sign
+    second: {fileID: 2100000, guid: 8cb7b923494578740af60c47ce891e5c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Box_0006_Fuzebox_Texture
+    second: {fileID: 2100000, guid: ed38e0dadd07f0f4caefcc52204d840e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Box_0006_Green_Fuse_Light
+    second: {fileID: 2100000, guid: 4e3ee8452d4fc434ab3a4c3c7fd208de, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Boxinabox
+    second: {fileID: 2100000, guid: 4bfe005030e4dbe4fae4a87c6ed63b3a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Fuse_Label
+    second: {fileID: 2100000, guid: 181041bcbf2049944af096a73bb401b3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Fuse_Texture
+    second: {fileID: 2100000, guid: 30739748615e70c45ac3eafa30b0df31, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Fusetip_Texture
+    second: {fileID: 2100000, guid: 3075448cabd84ec4eb72ad6bf966b586, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Red_Fuse_Texture
+    second: {fileID: 2100000, guid: d9a39e21ae0797b4b837536cacdc1f6e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Riffle_Texture
+    second: {fileID: 2100000, guid: 453674c1cb9840343aed774138c0739b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert1
+    second: {fileID: 2100000, guid: 1b1ab06bf4a5cf941966f10579d89eff, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 1
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

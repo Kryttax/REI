@@ -1,0 +1,24 @@
+fileFormatVersion: 2
+guid: a2b2dbff5641e294ab29e6eed84dadf9
+timeCreated: 1519736540
+licenseType: Free
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Typewriter
+  fontNames:
+  - Typewriter
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 4a0953962a413374c849f64226d825f4, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

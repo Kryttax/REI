@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Fire
+  - Button
+  - Item
+  - ButtonWind
+  - Interact
+  - trigger
+  - FuseBox
+  - BrokenWindMill
+  - Arrow
+  - FuseHolder
+  - Stairs
+  - Canvas
+  - Windmill
+  - WindmillManager
+  - GearBox
+  - PowerBar
+  - Cart
+  - Blade
+  - PowerText
+  - PowerTextStation
+  - Elec
+  - SpeedBoost
+  - SpeedBoostPickup
+  - Multimeter
+  - EndText
+  - CamPoint
+  - WayPoints
+  - FixCart
+  - Cleaning
+  - CleaningTrigger
+  - UITopDown
+  - Spawn
+  - BrokenFuse
+  - Drone
+  - GearBoxPrize
+  - Grinders
+  - BrokenWireBox
+  - DroneWireBoxManager
+  - PanelDrone
+  - Ocean
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Particles
+  - Ignore Particles
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0

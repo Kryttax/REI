@@ -1,0 +1,179 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1303183176190468}
+  m_IsPrefabParent: 1
+--- !u!1 &1303183176190468
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4351493821494058}
+  - component: {fileID: 33918225142668918}
+  - component: {fileID: 23537293651538580}
+  - component: {fileID: 114096807297405644}
+  - component: {fileID: 114763452768792376}
+  - component: {fileID: 114269594683117648}
+  - component: {fileID: 114100203352365818}
+  m_Layer: 4
+  m_Name: Ocean
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4351493821494058
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1303183176190468}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -107, y: 0.1, z: 62.9}
+  m_LocalScale: {x: 8.57365, y: 0.63171566, z: 8.825288}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &23537293651538580
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1303183176190468}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 656fde119942645aa8e062e04c119aa1, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &33918225142668918
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1303183176190468}
+  m_Mesh: {fileID: 4300002, guid: 681e41ee1260343b395ca58745c94870, type: 3}
+--- !u!114 &114096807297405644
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1303183176190468}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a91e8dd37cdd41efb4859b65aced7a2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  reflection: {fileID: 0}
+  waterBase: {fileID: 0}
+--- !u!114 &114100203352365818
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1303183176190468}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c1ecdb4bb72368409af4b3081a9c967, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TileSize: 500
+  ViewDistance: 1000
+  WaveEmitters:
+  - Position: {x: 0, y: 0}
+    Lifetime: 100
+    CurrentTime: 10
+    Frequency: 10
+    WaveLength: 10
+    Amplitude: 10
+    DecayDistance: 10
+  - Position: {x: 0, y: 0}
+    Lifetime: 0
+    CurrentTime: 0
+    Frequency: 0
+    WaveLength: 0
+    Amplitude: 0
+    DecayDistance: 0
+  - Position: {x: 0, y: 0}
+    Lifetime: 0
+    CurrentTime: 0
+    Frequency: 0
+    WaveLength: 0
+    Amplitude: 0
+    DecayDistance: 0
+  - Position: {x: 0, y: 0}
+    Lifetime: 0
+    CurrentTime: 0
+    Frequency: 0
+    WaveLength: 0
+    Amplitude: 0
+    DecayDistance: 0
+  - Position: {x: 0, y: 0}
+    Lifetime: 0
+    CurrentTime: 0
+    Frequency: 0
+    WaveLength: 0
+    Amplitude: 0
+    DecayDistance: 0
+  FollowCamera: {fileID: 0}
+--- !u!114 &114269594683117648
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1303183176190468}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77219569d3f901744805d9b5b505802d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114763452768792376
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1303183176190468}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9bdf54eaa582934f9fb62e5906e9877, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isMoving: 1
+  scale: 1
+  speed: 2
+  waveDistance: 5
+  noiseStrength: 100
+  noiseWalk: 100

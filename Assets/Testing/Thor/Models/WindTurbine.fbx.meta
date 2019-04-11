@@ -1,0 +1,136 @@
+fileFormatVersion: 2
+guid: 2e16d4c05419d1248ac7250efc94c07c
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Blades
+    100002: Broken_Moter
+    100004: Elivator
+    100006: Elivator_Floor
+    100008: Ladder
+    100010: Ladder_Top
+    100012: Mill_Motor4
+    100014: Windmill_Tower
+    100016: //RootNode
+    400000: Blades
+    400002: Broken_Moter
+    400004: Elivator
+    400006: Elivator_Floor
+    400008: Ladder
+    400010: Ladder_Top
+    400012: Mill_Motor4
+    400014: Windmill_Tower
+    400016: //RootNode
+    2100000: lambert1
+    2100002: Warning_Texture
+    2100004: Mill_Floor_Texture
+    2100006: Door_Yellow_Texture
+    2100008: Mill_Texture
+    2100010: Windmil_Blades_blinn1
+    2100012: Ladder_Tesxture
+    2300000: Blades
+    2300002: Broken_Moter
+    2300004: Elivator
+    2300006: Elivator_Floor
+    2300008: Ladder
+    2300010: Ladder_Top
+    2300012: Mill_Motor4
+    2300014: Windmill_Tower
+    3300000: Blades
+    3300002: Broken_Moter
+    3300004: Elivator
+    3300006: Elivator_Floor
+    3300008: Ladder
+    3300010: Ladder_Top
+    3300012: Mill_Motor4
+    3300014: Windmill_Tower
+    4300000: Windmill_Tower
+    4300002: Blades
+    4300004: Elivator_Floor
+    4300006: Elivator
+    4300008: Ladder
+    4300010: Mill_Motor4
+    4300012: Ladder_Top
+    4300014: Broken_Moter
+    2186277476908879412: ImportLogs
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

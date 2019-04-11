@@ -1,0 +1,168 @@
+fileFormatVersion: 2
+guid: e3d2932b0e06a2d43ae72cb5722977b5
+timeCreated: 1524486866
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Door_Left
+    100002: Door_Right
+    100004: pCube14
+    100006: pCube15
+    100008: pCube16
+    100010: pCube17
+    100012: pCube18
+    100014: pCube19
+    100016: //RootNode
+    100018: Tool_Shed
+    400000: Door_Left
+    400002: Door_Right
+    400004: pCube14
+    400006: pCube15
+    400008: pCube16
+    400010: pCube17
+    400012: pCube18
+    400014: pCube19
+    400016: //RootNode
+    400018: Tool_Shed
+    2100000: Wood_Doors
+    2100002: Blue_Texture
+    2100004: Roof_Texture1
+    2100006: Shelf_Texture
+    2300000: Door_Left
+    2300002: Door_Right
+    2300004: pCube14
+    2300006: pCube15
+    2300008: pCube16
+    2300010: pCube17
+    2300012: pCube18
+    2300014: pCube19
+    2300016: Tool_Shed
+    3300000: Door_Left
+    3300002: Door_Right
+    3300004: pCube14
+    3300006: pCube15
+    3300008: pCube16
+    3300010: pCube17
+    3300012: pCube18
+    3300014: pCube19
+    3300016: Tool_Shed
+    4300000: Door_Left
+    4300002: Door_Right
+    4300004: Tool_Shed
+    4300006: pCube14
+    4300008: pCube15
+    4300010: pCube16
+    4300012: pCube17
+    4300014: pCube18
+    4300016: pCube19
+    6400000: Door_Left
+    6400002: Door_Right
+    6400004: pCube14
+    6400006: pCube15
+    6400008: pCube16
+    6400010: pCube17
+    6400012: pCube18
+    6400014: pCube19
+    6400016: Tool_Shed
+    9500000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Blue_Texture
+    second: {fileID: 2100000, guid: 376e18197e074664faca4c0c82e26799, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Roof_Texture1
+    second: {fileID: 2100000, guid: b78c8b018688e174c8e771109572d1ac, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shelf_Texture
+    second: {fileID: 2100000, guid: eb45d9aac7722d440b46404f9e0c2576, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wood_Doors
+    second: {fileID: 2100000, guid: 72126f396970be44f868e481a7e1d0b9, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 100
+    meshCompression: 0
+    addColliders: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
