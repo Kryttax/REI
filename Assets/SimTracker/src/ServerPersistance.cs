@@ -1,12 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Net;
 using System.IO;
-using System.Runtime.Serialization.Formatters.Binary;
 using Newtonsoft.Json;
+
 namespace SimTracker
 {
     class ServerPersistance : IPersistence
@@ -15,7 +11,7 @@ namespace SimTracker
         public class Data
         {
             public string data { get; set; }
-            
+
         }
 
         void IPersistence.Send(string str)
@@ -30,15 +26,11 @@ namespace SimTracker
                 Data newData = new Data();
                 newData.data = str;
 
-                //byte[] byteArray = Encoding.UTF8.GetBytes(newData.ToString());
-                //httpWebRequest.ContentLength = byteArray.Length;
-
                 JsonSerializer serializer = new JsonSerializer();
 
                 using (var streamWriter = new StreamWriter(httpWebRequest.GetRequestStream()))
                 {
                     serializer.Serialize(streamWriter, newData);
-                    //streamWriter.Flush();
                 }
 
                 var httpResponse = (HttpWebResponse)httpWebRequest.GetResponse();

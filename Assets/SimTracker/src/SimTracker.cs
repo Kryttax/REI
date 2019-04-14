@@ -1,8 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Threading;
 
 namespace SimTracker
@@ -111,11 +109,5 @@ namespace SimTracker
         {
             assetTrackerObject.Enqueue(evnt);
         }
-
-        //public void WriteInFile()
-        //{
-        //    persistenceObject[0].Send(assetTrackerObject.Dequeue().ToCSV());
-        //    //persistenceObject[0].Send(serializaionObjct[0].Serialize(assetTrackerObject.Dequeue()));
-        //}
     }
 }
