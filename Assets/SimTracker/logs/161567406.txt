@@ -1,0 +1,15 @@
+_user;_timeStamp;_type;_level
+161567406;14/04/2019 20:34:01;PROGRESS;1
+
+_user;_timeStamp;_type;_level
+161567406;14/04/2019 20:34:03;PROGRESS;1
+
+_user;_timeStamp;_type;_level
+161567406;14/04/2019 20:34:04;PROGRESS;1
+
+_user;_timeStamp;_type;_level
+161567406;14/04/2019 20:34:05;PROGRESS;1
+
+_user;_timeStamp;_type;_level
+161567406;14/04/2019 20:34:08;PROGRESS;1
+

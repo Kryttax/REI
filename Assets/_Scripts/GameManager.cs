@@ -187,6 +187,10 @@ public class GameManager : MonoBehaviour {
             }
         }
 
+
+        // TRACKER INITIALIZATION
+        SimTracker.SimTracker.Instance();
+
     }
 		
 	
@@ -411,4 +415,11 @@ public class GameManager : MonoBehaviour {
     {
         SceneManager.LoadScene(0);
     }
+
+    void OnApplicationQuit()
+    {
+        SimTracker.SimTracker.instance.StopCleaning();
+    }
+
+    public int GetSceneNumber() { return SceneManager.GetActiveScene().buildIndex; }
 }
