@@ -18,6 +18,9 @@ public class LandingPadTrigger : MonoBehaviour {
     {
         if (other.gameObject.CompareTag("Drone"))
         {
+            SimTracker.ProgressEvent progreso = new SimTracker.ProgressEvent(1,"DRON",0,0,0);
+            SimTracker.SimTracker.Instance().PushEvent(progreso);
+
             GameObject.FindGameObjectWithTag("PanelDrone").SetActive(false);
             GameObject.Find("DroneControlButton").GetComponent<DronePanel>().isDrone = false;
             GameObject.Find("DroneControlButton").GetComponent<DronePanel>().moveBack = true;

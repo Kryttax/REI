@@ -159,6 +159,8 @@ public class GameManager : MonoBehaviour {
         {
             winText = GameObject.Find("Win!");
             winText.SetActive(false);
+            SimTracker.ProgressEvent progreso = new SimTracker.ProgressEvent(10, "WINDMILLS COMPLETED", 0, 0, 0);
+            SimTracker.SimTracker.Instance().PushEvent(progreso);
         }
 
         //Arrow over the cabin
@@ -208,6 +210,8 @@ public class GameManager : MonoBehaviour {
             pauseMenu.SetActive(true);
             Cursor.visible = true;
             Cursor.lockState = CursorLockMode.None;
+            
+       
         }
 
         if (powerText)
@@ -331,7 +335,9 @@ public class GameManager : MonoBehaviour {
                 if (endText) 
                 {
                     endText.GetComponent<TextMesh>().text = "Great Job! \n Now turn on the power station";    //Activate the puzzle solved text
-                    //Destroy(winText, 5f);       //Destroy it after 5 seconds
+                                                                                                              //Destroy(winText, 5f);       //Destroy it after 5 seconds
+                    SimTracker.ProgressEvent progreso = new SimTracker.ProgressEvent(10, "POWER STATION PREPARED", 0, 0, 0);
+                    SimTracker.SimTracker.Instance().PushEvent(progreso);
                 }
             }
         }
@@ -413,11 +419,15 @@ public class GameManager : MonoBehaviour {
 
     public void MainMenu()
     {
+        SimTracker.ProgressEvent progreso = new SimTracker.ProgressEvent(-1);
+        SimTracker.SimTracker.Instance().PushEvent(progreso);
         SceneManager.LoadScene(0);
     }
 
     void OnApplicationQuit()
     {
+        SimTracker.ProgressEvent progreso = new SimTracker.ProgressEvent(-1);
+        SimTracker.SimTracker.Instance().PushEvent(progreso);
         SimTracker.SimTracker.instance.StopCleaning();
     }
 
