@@ -1,0 +1,12 @@
+_room;_user;_timeStamp;_type;_level
+ITEM TAKEN;13291839;23/04/2019 16:34:15;PROGRESS;10
+
+_room;_user;_timeStamp;_type;_level
+NOTE READED;13291839;23/04/2019 16:34:17;PROGRESS;10
+
+_room;_user;_timeStamp;_type;_level
+FUSE PLACED CORRECTLY;13291839;23/04/2019 16:34:26;PROGRESS;10
+
+_room;_user;_timeStamp;_type;_level
+;13291839;23/04/2019 16:34:28;PROGRESS;-1
+
