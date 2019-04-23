@@ -41,6 +41,8 @@ public class ItemPickup : MonoBehaviour
 		//Add the item to the players inventory
         playerInventory.inventory.Add(gameObject.name);
         Destroy(gameObject);	//Destroy the object
+        SimTracker.ProgressEvent progreso = new SimTracker.ProgressEvent(10, "ITEM TAKEN", 0, 0, 0);
+        SimTracker.SimTracker.Instance().PushEvent(progreso);
     }
     
 
@@ -59,7 +61,9 @@ public class ItemPickup : MonoBehaviour
 
             //Add the item to the players inventory
             playerInventory.inventory.Add(gameObject.name);
-            Destroy(gameObject);	//Destroy the object
+            Destroy(gameObject);    //Destroy the object
+            SimTracker.ProgressEvent progreso = new SimTracker.ProgressEvent(10, "ITEM TAKEN", 0, 0, 0);
+            SimTracker.SimTracker.Instance().PushEvent(progreso);
         }
     }
 }

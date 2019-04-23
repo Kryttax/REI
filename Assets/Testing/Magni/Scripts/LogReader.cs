@@ -54,5 +54,7 @@ public class LogReader : MonoBehaviour {
 
         //Destroy the paper.
         Destroy(gameObject);
+        SimTracker.ProgressEvent progreso = new SimTracker.ProgressEvent(10, "NOTE READED", 0, 0, 0);
+        SimTracker.SimTracker.Instance().PushEvent(progreso);
     }
 }

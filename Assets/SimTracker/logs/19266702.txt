@@ -1,9 +1,0 @@
-_user;_timeStamp;_type;_level
-19266702;14/04/2019 20:36:26;PROGRESS;1
-
-_user;_timeStamp;_type;_level
-19266702;14/04/2019 20:36:27;PROGRESS;1
-
-_user;_timeStamp;_type;_level
-19266702;14/04/2019 20:36:28;PROGRESS;1
-

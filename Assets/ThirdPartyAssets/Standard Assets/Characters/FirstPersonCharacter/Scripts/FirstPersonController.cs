@@ -219,8 +219,8 @@ namespace UnityStandardAssets.Characters.FirstPerson
                     PlayJumpSound();
                     m_Jump = false;
                     m_Jumping = true;
-                    SimTracker.SimTracker.instance.PushEvent(new SimTracker.ProgressEvent(SceneManager.GetActiveScene().buildIndex, "MainRoom",
-                        gameObject.transform.position.x, gameObject.transform.position.y, gameObject.transform.position.z));
+                    //SimTracker.SimTracker.instance.PushEvent(new SimTracker.ProgressEvent(SceneManager.GetActiveScene().buildIndex, "MainRoom",
+                    //    gameObject.transform.position.x, gameObject.transform.position.y, gameObject.transform.position.z));
                 }
             }
             else

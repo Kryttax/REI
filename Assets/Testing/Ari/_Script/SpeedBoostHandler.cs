@@ -61,9 +61,10 @@ public class SpeedBoostHandler : MonoBehaviour
 		//Decrease fill amount when player is running
 		if (!characterController.IsWalking)
 			boostMask.fillAmount -= .001f;
+            
 
-		//If diary is activated, hide speed boost UI
-		if (gameManager.diaryIsActive && speedBoostActive)
+        //If diary is activated, hide speed boost UI
+        if (gameManager.diaryIsActive && speedBoostActive)
 			boostUIHolder.SetActive(false);
 		else if (!gameManager.diaryIsActive && speedBoostActive)
 			boostUIHolder.SetActive(true);
@@ -88,9 +89,14 @@ public class SpeedBoostHandler : MonoBehaviour
 			//Increase the run speed by two
 			characterController.RunSpeed = initialRunSpeed * 2.0f;
 
-			//Destroy the speed boost pickup
-			Destroy(other.gameObject);
+            SimTracker.ProgressEvent progreso = new SimTracker.ProgressEvent(1, "BOOST", 0, 0, 0);
+            SimTracker.SimTracker.Instance().PushEvent(progreso);
+
+            //Destroy the speed boost pickup
+            Destroy(other.gameObject);
 			speedBoostActive = true;
-		}
+
+            
+        }
 	}
 }
