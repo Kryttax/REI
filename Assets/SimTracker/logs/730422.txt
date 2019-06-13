@@ -1,0 +1,9 @@
+_room;_userId;_timeStamp;_type;_level
+ITEM TAKEN;730422;13/06/2019 14:08:51;PROGRESS;10
+
+_room;_userId;_timeStamp;_type;_level
+FUSE PLACED CORRECTLY;730422;13/06/2019 14:09:01;PROGRESS;10
+
+_room;_userId;_timeStamp;_type;_level
+;730422;13/06/2019 14:09:10;PROGRESS;-1
+

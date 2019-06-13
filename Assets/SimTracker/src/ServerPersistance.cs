@@ -2,7 +2,6 @@
 using System.Net;
 using System.IO;
 using Newtonsoft.Json;
-
 namespace SimTracker
 {
     class ServerPersistance : IPersistence
@@ -11,10 +10,10 @@ namespace SimTracker
         public class Data
         {
             public string data { get; set; }
-
+            
         }
 
-        void IPersistence.Send(string str)
+        void IPersistence.Send<T>(T str)
         {
             try
             {
@@ -24,7 +23,7 @@ namespace SimTracker
                 httpWebRequest.ContentType = "application/json; charset=utf-8";
                 httpWebRequest.Method = "POST";
                 Data newData = new Data();
-                newData.data = str;
+                newData.data = str.ToString();
 
                 JsonSerializer serializer = new JsonSerializer();
 

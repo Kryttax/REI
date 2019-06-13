@@ -1,0 +1,3 @@
+{"playerPos":{"X":-1.0,"Y":-1.0,"Z":-1.0},"_room":"","_user":-1340242159,"_timeStamp":"12/06/2019 13:42:37","_type":"PROGRESS","_level":1}
+{"playerPos":{"X":-1.0,"Y":-1.0,"Z":-1.0},"_room":"","_user":-1340242159,"_timeStamp":"12/06/2019 13:42:38","_type":"PROGRESS","_level":1}
+{"playerPos":{"X":20.0,"Y":50.0,"Z":70.5},"_room":"first room","_user":-1340242159,"_timeStamp":"12/06/2019 13:42:38","_type":"PROGRESS","_level":0}

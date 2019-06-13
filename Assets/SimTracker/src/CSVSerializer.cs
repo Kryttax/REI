@@ -1,13 +1,14 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
 using System.Text;
+using System.Threading.Tasks;
 using CsvHelper;
 
 namespace SimTracker
 {
     class CSVSerializer : ISerializer
     {
-        StringBuilder csvFile;
-
         string ISerializer.Serialize(IEvent evnt)
         {
             var records = new List<dynamic> { evnt };
@@ -18,7 +19,6 @@ namespace SimTracker
                 csv.WriteRecords(records);
             }
 
-            //return csvFile.ToString();
             return writer.ToString();
         }
     }
