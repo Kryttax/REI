@@ -8,6 +8,6 @@ namespace SimTracker
 {
     interface IPersistence
     {
-        void Send<T>(T str);
+        void Send(string str);
     };
 }

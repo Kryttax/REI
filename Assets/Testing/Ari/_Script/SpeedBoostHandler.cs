@@ -90,7 +90,10 @@ public class SpeedBoostHandler : MonoBehaviour
 			characterController.RunSpeed = initialRunSpeed * 2.0f;
 
             SimTracker.ProgressEvent progreso = new SimTracker.ProgressEvent(1, "BOOST", 0, 0, 0);
-            SimTracker.SimTracker.Instance().PushEvent(progreso);
+
+            Vector3 pos = GameObject.FindGameObjectWithTag("Player").transform.position;
+            SimTracker.InteractionEvent evnt = new SimTracker.InteractionEvent(GameManager.instance.GetSceneNumber(), pos.x, pos.y, pos.z, "ITEM TAKEN", "object: Speed Boost");
+            SimTracker.SimTracker.instance.PushEvent(progreso);
 
             //Destroy the speed boost pickup
             Destroy(other.gameObject);

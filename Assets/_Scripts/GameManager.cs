@@ -8,6 +8,7 @@ using UnityEngine.SceneManagement;
 public class GameManager : MonoBehaviour {
 
     //Public Variables
+    public static GameManager instance = null;
     public List<string> diaryPages;
     public bool diaryIsActive = false;
     public Text diaryText;
@@ -84,6 +85,11 @@ public class GameManager : MonoBehaviour {
 
     private void Awake()
     {
+        if (instance != null)
+            Destroy(this);
+        else
+            instance = this;
+
         pauseMenu = GameObject.Find("PauseMenu");
         pauseMenu.SetActive(false);
 
@@ -160,7 +166,7 @@ public class GameManager : MonoBehaviour {
             winText = GameObject.Find("Win!");
             winText.SetActive(false);
             SimTracker.ProgressEvent progreso = new SimTracker.ProgressEvent(10, "WINDMILLS COMPLETED", 0, 0, 0);
-            SimTracker.SimTracker.Instance().PushEvent(progreso);
+            SimTracker.SimTracker.instance.PushEvent(progreso);
         }
 
         //Arrow over the cabin
@@ -191,7 +197,8 @@ public class GameManager : MonoBehaviour {
 
 
         // TRACKER INITIALIZATION
-        SimTracker.SimTracker.Instance();
+        //SimTracker.SimTracker.instance;
+        SimTracker.SimTracker tracker = new SimTracker.SimTracker();
 
     }
 		
@@ -337,7 +344,7 @@ public class GameManager : MonoBehaviour {
                     endText.GetComponent<TextMesh>().text = "Great Job! \n Now turn on the power station";    //Activate the puzzle solved text
                                                                                                               //Destroy(winText, 5f);       //Destroy it after 5 seconds
                     SimTracker.ProgressEvent progreso = new SimTracker.ProgressEvent(10, "POWER STATION PREPARED", 0, 0, 0);
-                    SimTracker.SimTracker.Instance().PushEvent(progreso);
+                    SimTracker.SimTracker.instance.PushEvent(progreso);
                 }
             }
         }
@@ -420,14 +427,14 @@ public class GameManager : MonoBehaviour {
     public void MainMenu()
     {
         SimTracker.ProgressEvent progreso = new SimTracker.ProgressEvent(-1);
-        SimTracker.SimTracker.Instance().PushEvent(progreso);
+        SimTracker.SimTracker.instance.PushEvent(progreso);
         SceneManager.LoadScene(0);
     }
 
     void OnApplicationQuit()
     {
         SimTracker.ProgressEvent progreso = new SimTracker.ProgressEvent(-1);
-        SimTracker.SimTracker.Instance().PushEvent(progreso);
+        SimTracker.SimTracker.instance.PushEvent(progreso);
         SimTracker.SimTracker.instance.StopCleaning();
     }
 

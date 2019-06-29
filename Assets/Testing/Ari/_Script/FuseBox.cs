@@ -87,8 +87,9 @@ public class FuseBox : MonoBehaviour
                 audioSource.PlayOneShot(fusePlaceSound);                                 //Play sound
                 transform.parent.GetComponentInChildren<ParticleSystem>().Stop();   //Stop sparkling electricity particle system
 
-                SimTracker.ProgressEvent progreso = new SimTracker.ProgressEvent(10, "FUSE PLACED CORRECTLY", 0, 0, 0);
-                SimTracker.SimTracker.Instance().PushEvent(progreso);
+                SimTracker.MilestoneEvent mlstn = new SimTracker.MilestoneEvent(GameManager.instance.GetSceneNumber(), player.transform.position.x,
+                    player.transform.position.y, player.transform.position.z, "FUSE PLACED CORRECTLY");
+                SimTracker.SimTracker.instance.PushEvent(mlstn);
 
                 canPlace = false;                   //Can no longer place an object in the fusebox
                 gameObject.tag = "Untagged";        //Make it non-interactable

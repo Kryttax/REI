@@ -7,52 +7,44 @@ using System.IO;
 
 namespace SimTracker
 {
+    //Creates a new file with player's Id name and writes a serialized event
     class FilePersistence : IPersistence
     {
 
-        string enviromentPath = Environment.CurrentDirectory;
-        string unityPath = @"Assets\SimTracker\logs\";
-        string solutionPath = "..\\..\\logs\\";
-        string path = null;
-        string fileName = null;
-        StreamWriter sw = null;
+        private static string solutionPath = "..\\..\\logs\\";
+        private string enviromentPath = Environment.CurrentDirectory;
+        private string path = null;
+        private string fileName = null;
+        private StreamWriter sw = null;
 
-        void IPersistence.Send<T>(T str)
+#if UNITY_EDITOR
+        private static string unityPath = @"Assets\SimTracker\logs\";
+#endif
+
+        void IPersistence.Send(string str)
         {
 
-            if (path == null)
+            if (str[0] == '{')
             {
-                if(str is JSONSerializer)
-                    fileName = SimTracker.Instance().user + ".json";
-                else if(str is CSVSerializer)
-                    fileName = SimTracker.Instance().user + ".csv";
-                else if (str is string)
-                    fileName = SimTracker.Instance().user + ".txt";
-                else
-                {
-                    Console.WriteLine("Object is not serialized correctly.");
-                    return;
-                }
+                fileName = SimTracker.Instance.user + ".json";
 
+            }
+            else
+            {
+                fileName = SimTracker.Instance.user + ".csv";
+            }
+
+            //Checks Unity Editor's specific path
 #if UNITY_EDITOR
                 path = Path.Combine(enviromentPath, unityPath, fileName);
 #else
-                path = Path.Combine(enviromentPath, solutionPath, fileName);
+            path = Path.Combine(enviromentPath, solutionPath, fileName);
 #endif
-            }
 
-            //if (!File.Exists(path))
-            //{
-            //    sw = File.AppendText(path);
-            //    sw.WriteLine(str);
-            //    sw.Close();
-            //}
-            //else
-            {
-                sw = File.AppendText(path);
-                sw.WriteLine(str);
-                sw.Close();
-            }
+            sw = File.AppendText(path);
+            sw.WriteLine(str);
+            sw.Close();
+
         }
     }
 }

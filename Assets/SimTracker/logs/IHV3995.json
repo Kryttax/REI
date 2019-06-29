@@ -1,0 +1,4 @@
+{"_userId":"IHV3995","_dateStamp":"29/06/2019","_timeStamp":"11:54:05","_type":"NOTYPE","_level":"-1","_playerPos":"-1,-1,-1"}
+{"_userId":"IHV3995","_dateStamp":"29/06/2019","_timeStamp":"11:54:05","_type":"BUG","_level":"0","_playerPos":"4,2,-8","_area":"bugRoom","_errorMsg":"This is a testing error","_keyWord":"My_ERROR"}
+{"_userId":"IHV3995","_dateStamp":"29/06/2019","_timeStamp":"11:54:06","_type":"NOTYPE","_level":"1","_playerPos":"2,4,2"}
+{"_userId":"IHV3995","_dateStamp":"29/06/2019","_timeStamp":"11:54:06","_type":"PROGRESS","_level":"0","_playerPos":"20,50,70","_area":"first room"}

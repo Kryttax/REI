@@ -1,6 +1,0 @@
-_room;_user;_timeStamp;_type;_level
-;1314109251;14/04/2019 21:21:42;PROGRESS;1
-
-_room;_user;_timeStamp;_type;_level
-;1314109251;14/04/2019 21:21:43;PROGRESS;1
-

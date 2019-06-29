@@ -6,38 +6,36 @@ namespace SimTracker
 {
     class ServerPersistance : IPersistence
     {
-        [Serializable]
-        public class Data
-        {
-            public string data { get; set; }
-            
-        }
 
-        void IPersistence.Send<T>(T str)
+        private string webAddr = "http://localhost:8080/tracker";
+        private HttpWebRequest httpWebRequest;
+        private string requestType = "text/plain";                          //JSON/plainText
+        private string requestMethod = "POST";                              //Two methods: GET and POST
+
+        //Sends a serialized event to a given web address
+        void IPersistence.Send(string str)
         {
             try
             {
-                string webAddr = "http://localhost:8080/tracker";
+                httpWebRequest = (HttpWebRequest)WebRequest.Create(webAddr);
+                httpWebRequest.ContentType = requestType;
+                httpWebRequest.Method = requestMethod;
 
-                var httpWebRequest = (HttpWebRequest)WebRequest.Create(webAddr);
-                httpWebRequest.ContentType = "application/json; charset=utf-8";
-                httpWebRequest.Method = "POST";
-                Data newData = new Data();
-                newData.data = str.ToString();
-
-                JsonSerializer serializer = new JsonSerializer();
 
                 using (var streamWriter = new StreamWriter(httpWebRequest.GetRequestStream()))
                 {
-                    serializer.Serialize(streamWriter, newData);
+
+                    streamWriter.Write(str);
+                    
                 }
 
                 var httpResponse = (HttpWebResponse)httpWebRequest.GetResponse();
                 using (var streamReader = new StreamReader(httpResponse.GetResponseStream()))
                 {
-                    var responseText = streamReader.ReadToEnd();
-                    Console.WriteLine(responseText);
+                    Console.WriteLine(streamReader.ReadToEnd());
                 }
+
+
             }
             catch (WebException ex)
             {

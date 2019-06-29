@@ -17,8 +17,10 @@ public class Teleporter : MonoBehaviour
     void OnTriggerEnter(Collider other)
     {
         //source.pitch = Random.Range (0.8f, 1.2f);
-        SimTracker.ProgressEvent progreso = new SimTracker.ProgressEvent(10,"TP USED",0,0,0);
-        SimTracker.SimTracker.Instance().PushEvent(progreso);
+        Vector3 pos = GameObject.FindGameObjectWithTag("Player").transform.position;
+        SimTracker.MilestoneEvent evnt = new SimTracker.MilestoneEvent(GameManager.instance.GetSceneNumber(), pos.x, pos.y, pos.z,
+            "TP USED");
+        SimTracker.SimTracker.instance.PushEvent(evnt);
         source.PlayOneShot(teleportAudio);
         if (exit == last)
             return;

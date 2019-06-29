@@ -1,0 +1,4 @@
+{"_userId":"VVF8294","_dateStamp":"29/06/2019","_timeStamp":"12:08:11","_type":"PROGRESS","_level":"0","_playerPos":"20,44,70","_area":"turbine_area"}
+{"_userId":"VVF8294","_dateStamp":"29/06/2019","_timeStamp":"12:08:12","_type":"BUG","_level":"0","_playerPos":"23,85,65","_area":"watchroom","_errorMsg":"Turbine not powering up correctly","_keyWord":"TURBINE_ERROR"}
+{"_userId":"VVF8294","_dateStamp":"29/06/2019","_timeStamp":"12:08:12","_type":"MILESTONE","_level":"1","_playerPos":"30,44,9","_achievement":"FUSE PLACED CORRECTLY"}
+{"_userId":"VVF8294","_dateStamp":"29/06/2019","_timeStamp":"12:08:12","_type":"INTERACTION","_level":"0","_playerPos":"45,44,12","_object":"ITEM TAKEN","_description":"object: fuse"}

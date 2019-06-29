@@ -42,7 +42,7 @@ public class DroneWireBoxController : MonoBehaviour
                     return;
             }
             SimTracker.ProgressEvent progreso = new SimTracker.ProgressEvent(1,"DRON COMPLETE",0,0,0);
-            SimTracker.SimTracker.Instance().PushEvent(progreso);
+            SimTracker.SimTracker.instance.PushEvent(progreso);
             allFixed = true;
         }
 	}

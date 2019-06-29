@@ -1,6 +1,7 @@
 ﻿namespace SimTracker
 {
-    interface IEvent
+    //Clase abstracta con atributos generales
+    interface IEvent 
     {
         string ToCSV();
 

@@ -1,0 +1,36 @@
+{
+  "_userId": "PAI6478",
+  "_dateStamp": "23/06/2019",
+  "_timeStamp": "18:39:15",
+  "_type": "NOTYPE",
+  "_level": -1,
+  "_playerPos": "-1,-1,-1"
+}
+{
+  "_userId": "PAI6478",
+  "_dateStamp": "23/06/2019",
+  "_timeStamp": "18:39:15",
+  "_type": "BUG",
+  "_level": 0,
+  "_playerPos": "4,2,-8",
+  "_room": "bugRoom",
+  "_errorMsg": "This is a testing error",
+  "_keyWord": "My_ERROR"
+}
+{
+  "_userId": "PAI6478",
+  "_dateStamp": "23/06/2019",
+  "_timeStamp": "18:39:16",
+  "_type": "NOTYPE",
+  "_level": 1,
+  "_playerPos": "2,4,2"
+}
+{
+  "_userId": "PAI6478",
+  "_dateStamp": "23/06/2019",
+  "_timeStamp": "18:39:16",
+  "_type": "PROGRESS",
+  "_level": 0,
+  "_playerPos": "20,50,70,5",
+  "_room": "first room"
+}
